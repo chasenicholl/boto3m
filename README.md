@@ -7,4 +7,6 @@ multiprocess downloading and uploading.
 
 Obviously boto3 is required.
 
-```$ pip install boto3```
+```
+$ pip install boto3
+```
