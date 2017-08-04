@@ -58,7 +58,7 @@ class S3Client(object):
         return self.client
 
 
-class S3(object):
+class S3M(object):
 
     def download(self, keys=None, dest=None, bucket=None):
         """

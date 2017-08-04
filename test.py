@@ -1,9 +1,9 @@
 import logging
-from boto3m.s3 import S3
+from boto3m.s3 import S3M
 
 logging.getLogger('boto3m').setLevel(logging.DEBUG)
 
-s3 = S3()
+s3 = S3M()
 files = s3.download('20170802/285c8c9f00d8b387/',
                     # '/tmp/',
                     bucket='carmera-raw-videos')
