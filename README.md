@@ -1,13 +1,13 @@
 # Boto 3 - M(ultiprocessing) extension.
 
 Boto3m(ultiprocessing) is a simple extension to the Boto3 AWS SDK to support
-multiprocess downloading and uploading.
+multiprocess downloading (and uploading coming soon).
 
-With support for downloading and uploading objects by folders and keys.
+With support for downloading (and uploading coming soon) objects by folders and keys.
 
 ### Requirements
 
-Obviously `boto3` is required. Python >= 3.5 is recommended. Come on people. Lets move on from 2.7.
+Obviously `boto3` is required. Python >= 3.5 is recommended. (Come on people, lets move on from 2.7)
 
 ```
 $ pip install boto3
