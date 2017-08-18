@@ -1,4 +1,4 @@
-# Boto 3 - M(ultiprocessing) extension.
+# Boto 3M(ultiprocessing) extension.
 
 Boto3m(ultiprocessing) is a simple extension to the Boto3 AWS SDK to support
 multiprocess downloading (and uploading coming soon).
@@ -24,7 +24,15 @@ $ cd boto3m && python3 setup.py install --upgrade
 
 Configuration follows boto3's pattern. See http://boto3.readthedocs.io/en/latest/guide/configuration.html.
 
-Additionally the `S3M` class has 2 environment variables.
+Additionally the `S3M` class has 2 optional environment variables.
+
+```python
+BOTO3M_WORKERS = 8  # This is the number of parallel processes boto3m can use.
+                    # Defaults to systems CPU count.
+BOTO3M_BUCKET = 'some_bucket_on_s3'  # The target bucket.
+                                     # This can also be passed as a method argument.
+```
+
 
 ### Usage Example
 
