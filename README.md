@@ -24,7 +24,7 @@ $ cd boto3m && python3 setup.py install --upgrade
 
 Configuration follows boto3's pattern. See http://boto3.readthedocs.io/en/latest/guide/configuration.html.
 
-Additionally the `S3M` class has 2 optional environment variables.
+Additionally when using boto3m, 2 optional environment variables my be set.
 
 ```python
 BOTO3M_WORKERS = 8  # This is the number of parallel processes boto3m can use.
