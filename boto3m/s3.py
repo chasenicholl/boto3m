@@ -3,7 +3,6 @@ import boto3m.utils as util
 import errno
 import logging
 import math
-import multiprocessing
 import os
 import tempfile
 import sys
