@@ -17,7 +17,7 @@ $ pip install boto3
 
 ```
 $ git clone git@github.com:chasenicholl/boto3m.git
-$ cd boto3m && python3 setup.py install --upgrade
+$ cd boto3m && python3 setup.py install
 ```
 
 ### Configuring

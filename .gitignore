@@ -1,3 +1,6 @@
 __pycache__
 *.pyc
 test.py
+boto3m.egg-info
+build
+dist
